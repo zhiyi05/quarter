@@ -1,0 +1,306 @@
+
+  图标
+  https://raw.githubusercontent.com/Hacker-C/Picture-Bed/main/blog/favicon-green.fw.nv7nz75g8fk.png
+
+  
+字符实体
+&nbsp;	&#160	空格
+&lt;	  &#60	小于号
+&gt;	  &#62	大于号
+
+
+装饰线
+text-decoration: line-through
+文本对齐
+text-align
+
+font 1px "黑体" 顺序不能变
+
+后代选择器&nbsp;
+直接子代元素选择&gt;
+相邻兄弟选择器 +
+交集选择器 - 精准选择 div.class
+并集选择器 .class,div
+
+伪类-鼠标悬停
+
+伪元素-before-after-
+
+块级元素演示-宽高
+inline
+元素模式转换
+
+元素隐藏-2种
+透明度-2种
+
+padding属性连写
+border属性连写-虚线
+解决margin-top传递
+margin传递
+
+文本对齐 block对齐
+圆角
+京东(新人福利-PLUS会员)
+案例2-小米商城-box-shadow参数{box-shadow:0 2px 20px 5px rgba(0,0,0,.1)}
+
+文字不换行隐藏
+
+background 连写 position所有方向
+横向长图片居中-缩放浏览器固定
+
+创建所有列表
+列表重置样式
+
+无序列表转有序列表
+
+制作表格
+属性选择器
+
+1.png
+
+label
+单选框完整版
+复选框完整版
+文本域-重置尺寸
+选择列表-默认选中
+
+结构伪类
+nth选偶数/奇数
+选前n个
+nth倒数
+选择第n个【元素】-
+选择空元素，根元素
+
+border画三角形
+web-font导入
+字体图标导入
+sprite
+模仿A元素
+相对定位
+固定定位-符合inline-block
+绝对定位-符合inline-block
+子元素center父元素的四个边和中心点
+网易云项目
+sticky
+x-index
+浮动的五个规则
+      1.朝着向左或向右方向移动，直到自己的边界紧贴着包含块(一般是父元素）或者其他浮动元素的边界为止(层叠关系static-float-fixed)
+      2. 只能在所在的父级元素内浮动
+      3.紧贴着前一个float元素,如果水平方向宽度不够，向下浮动
+      4.float元素不能和行内级元素(inline: span img input button)层叠
+      5.只能左右浮动不能上下浮动(不能超过所在行)
+百度bottom-button
+京东-5块横向排版
+京东-6块排版
+
+clear-fix-兼容性
+clear属性可以指定一个元素移动(清除浮动后）到在它之前的浮动元素下面；
+
+main axis-->wrap
+cross axis-->column
+
+-----container-----
+-----修改主轴方向-反转主轴方向
+-----单行和多行
+-----上面两个属性连写
+
+main axis分布方式：----重要
+flex-end
+center
+space-between
+space-around
+space-evenly
+span解决对齐问题
+
+align-items决定了flex items在cross axis上的对齐方式----重要
+center
+flex-start
+
+-----item-----
+拉伸
+压缩
+
+text-indent
+SEO优化
+
+
+
+transform垂直居中
+
+缩放变形
+旋转
+xy轴位移  百分比相对于谁
+transform-三个值连写
+改变原点
+
+
+
+过渡
+-需要执行的动画的属性选择
+-持续时间
+-执行曲线
+  连写
+等待时间
+
+
+动画
+关键帧
+-名字
+-持续时间
+-执行曲线
+  迭代次数
+  连写
+动画结束停留位置
+反转执行方向
+延迟
+
+
+video
+audio
+改变大小比列
+宽度计算值（percentage)
+全局颜色属性定义与使用
+
+
+滤镜-2:category-高斯模糊
+
+三种媒体查询-最大值和最小值
+
+
+hover+混入+传参
+映射
+
+em 
+rem 
+VW 视口1%
+
+多行超出省略
+                                                        display: -webkit-box;
+                                                        -webkit-box-orient: vertical;
+                                                        -webkit-line-clamp: 2;
+                                                        overflow : hidden;
+
+
+
+获取长度如果为空返回默认值
+switch
+
+构造函数--创建多个对象
+创建对象，遍历key和value  ------2category
+向下取整                                                                                              floor
+向上取整                                                                                          ceil
+四舍五入                                                                                            round
+精确小数                                                                                     toFixed
+随机数0-80-排序
+
+大小写转换                                                                                   toUpperCase
+查找字是否包含此符串                                                                                   字符串.includes
+是否以“xx”开头/结尾                                                                                   startsWith
+指定字符串替换字符串                                                                                   foo.replace("=","@")
+按索引 截取 字符串（section）                                                                               slice(start,end)
+删除首尾空格                                                                                   trim
+用指定字符分割字符                                                                                   split
+用新字符拼接字符数组                                                                                   join
+
+
+      var list = ["Monday","tuesday","wednesday","thursday","friday","saturday","sunday"]
+数组增删 首尾                                                                                   push-pop  unshift
+数组修改：删除，插入，替换                                                                                   splice修改原数组
+遍历-索引，值  3种                                                                                 for in of
+截取数组，不修改原数组                                                                                   slice
+数组拼接，不修改原数组                                                                                   concat
+按数组值查找对应的索引                                                                                   indexOf("item")
+
+
+使用高阶函数find查找 item/index 
+写一个函数回调遍历数组
+
+字符串：年月日时分秒毫秒转换为时间
+获取current timestamp  2 种                                                                                  Date.now()
+获取年份                                                                                   getFullYear
+获取月份                                                                                   getMonth()+1
+获取日                                                                                   getDate
+获取时分秒 all-format
+
+
+node-navigation
+获取HTML元素                                                                                    document.documentElement
+获取body元素                                                                                    document.body
+获取body下面所有子节点                                                               bodyEl.childNodes
+获取body下面第一个子节点                                                               firstChild
+获取body下面下一个子节点                                                               firstChild.nextSibling
+获取body父节点                                                               bodyEl.parentNode
+
+元素navigation
+获取body下所有子元素                                                               bodyEl.children
+获取body下第一个子元素 2-category                                                bodyEl.firstElementChild  children[0]
+获取body下第二个子元素                                                              nextElementSibling
+
+通过选择器查询 单个/全部                                                           document.querySelector(".keyword")
+获取node对应的内容包括HTML标签                                                           node.innerHtml
+获取node对应的内容不包括HTML标签                                                           node.textContent
+改变节点类容                                                            h2.textContent = "jjj"
+
+button 显示与隐藏的切换
+
+获取非标准attribute
+检查特性是否存在
+获取这个特性值。
+设置这个特性值。
+移除这个特性
+遍历                                                                       of value.name
+自定义attribute 设置于获取                                                   dataset.age
+
+
+获取标准attribute                                                            El.id
+设置这个特性值。
+设置样式-字体大小，颜色
+添加多个类名，移除,切换，检查包含                                                     classList.add("name")  toggle contains
+
+
+创建元素                                                            document.createElement("h2")
+-设置类名                                                           foo.className = "ffo";
+-设置第二个类名
+-设置类容
+-加入浏览器                                                            位置.append(h2)
+
+点击按钮移除/复制元素---446                                               remove() cloneNode(true)
+
+输出滚动条数值                                                         window.scrollY
+设置滚动条滚动数值，绝对，相对                                                         window.scrollTo/By(0, 100);
+设置滚动条滚动数值到指定位置显示隐藏某个元素                                                  window.onscroll = function(){}
+时间两位数0补位                                                              字符串.padStart(2, "0")
+实时显示当前时间                                                              
+多个event同时触发
+
+currentTarget
+3s后移除某个事件监听                                                setTimeout-boxEl.removeEventListener("click",foo);
+派遣事件                                                window.dispatchEvent(new Event("zhiyi"))
+事件委托                                                         464 只给父元素绑定事件，代码效率高
+点击li变色-切换                                                          461
+常见事件：
+菜单键                                                                   contextmenu
+监听阻止默认行为                                                            preventDefault
+双击                                                                   dblclick
+鼠标按下与松开                                                          mouseup mouseover
+鼠标移入移出（冒泡）                                   (mouseover mouseout)  (mouseenter mouseleave)
+鼠标被移动                                                                     mousemove
+
+监听键盘按压事件区分大小写                                                               key code
+enter键,搜索按钮搜索功能                                                               
+按s获取焦点                                                               focus
+
+表单事件：
+获取焦点                                                                       onfocus
+失去焦点                                                                       onblur
+输入中                                                                       oninput
+内容发生改变，失去焦点                                                            onchange
+点击按钮取消时间延迟                                             clearTimeout(timeOutId)(任务不会执行)
+取消迭代                                                            clearInterval(Id)
+案列：
+banner循环播放    随机                                                        469
+删除banner-动画-结束删除元素                                                       ontransitionend
+侧栏展示                                                       
+
+474 477轮播图
+Array.from
