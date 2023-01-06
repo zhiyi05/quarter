@@ -1,42 +1,46 @@
-@smallFontSize:12px;
-@normalFontSize:14px;
-@bigFontSize:18px;
-
-
-body,p,h1,h2,h3,h4,ul,ol,dl,dt,dd{
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+ul,
+ol,
+dl,
+dt,
+dd {
   padding: 0;
   margin: 0;
   color: #6d6d6d;
 }
-
-th{
+th {
   font-weight: normal;
 }
-
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
   color: #464646;
   outline: none;
 }
-
-i,em{
+i,
+em {
   font-style: normal;
 }
-
-ul,ol,dl,dt,dd{
+ul,
+ol,
+dl,
+dt,
+dd {
   list-style: none;
 }
-
-input{
+input {
   outline: none;
   border: none;
   /* background-color: rgb(153, 54, 54); */
 }
-
-img{
+img {
   vertical-align: top;
 }
-
-h4{
+h4 {
   /* display: inline-block; */
 }
+/*# sourceMappingURL=reset.css.map */

@@ -1,0 +1,32 @@
+.crumb {
+  height: 63px;
+  line-height: 63px;
+}
+.crumb .item {
+  cursor: pointer;
+}
+.crumb .item:last-child {
+  color: #000;
+}
+.section {
+  background-color: #fff;
+}
+.section .row {
+  display: flex;
+  padding: 0 24px;
+}
+.section .row .item {
+  width: 104px;
+  line-height: 48px;
+  height: 48px;
+  color: #000;
+  cursor: pointer;
+}
+.section .row .item:first-child {
+  color: #666;
+  cursor: auto;
+}
+.section .row .active {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
