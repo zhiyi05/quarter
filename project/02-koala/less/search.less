@@ -1,0 +1,55 @@
+@import url(common.less);
+
+.top{
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10.66667vw;
+  display: flex;
+  justify-content: space-between;
+  font-size: @normalFontSize;
+  align-items: center;
+  padding: 0 2.6667vw;
+  background-color: #fff;
+
+  .search{
+    position: relative;
+    border: .26667vw solid red;
+    border-radius: 4vw;
+    width: 74.6667vw;
+    height: 7.0vw;
+
+    .searchIcon{
+      position: absolute;
+      top: 50%;
+      left: 2.8333vw;
+      transform: translate(0, -50%);
+      width: 3.2vw;
+      height: 3.2vw;
+      background: url(../image/search-icon.png) no-repeat center center/100%;
+    }
+
+    input{
+      position: absolute;
+      top: 50%;
+      transform: translate(0,-50%);
+      left: 8vw;
+      width: 62.6667vw;
+      font-size: @normalFontSize;
+      line-height: 6vw;
+    }
+  }
+
+  .login{
+    width: 16vw;
+    height: 7vw;
+    text-align: center;
+    line-height: 7vw;
+    border-radius: .8vw;
+    color: #e31436;
+    border: .2667vw solid #e31436;
+  }
+
+}

@@ -1,0 +1,149 @@
+.content-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
+  /* background-color: #ccc; */
+}
+.content-section .left {
+  width: 872px;
+  height: 528px;
+}
+.content-section .right {
+  width: 295px;
+  height: 528px;
+}
+
+/* left-option */
+
+.content-section .left .option a {
+  width: 289px;
+}
+
+/* 精品栏目子列表 */
+.content-section .left .sieve {
+  height: 50px;
+}
+
+.content-section .left .sieve .column {
+  margin-top: 25px;
+  display: flex;
+  /* display: none; */
+}
+
+.content-section .left .sieve li .btn {
+  margin-right: 8px;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 3px 13px;
+  line-height: 24px;
+  background: #f5f5f5;
+}
+
+.content-section .left .sieve li .btn:hover {
+  color: #fff;
+  border-color: #f3c258;
+  background: #f3c258;
+}
+
+/* 精品赛事子列表 */
+.content-section .left .sieve .match {
+  display: flex;
+  margin-top: 8px;
+  display: none;
+}
+
+/* 英雄攻略子列表 */
+.content-section .left .sieve .strategy a {
+  display: inline-block;
+  margin-top: 45px;
+  text-indent: 10px;
+  display: none;
+}
+.content-section .left .sieve .strategy a::after {
+  content: "";
+  display: inline-block;
+  width: 11px;
+  height: 6px;
+  margin-left: 10px;
+  margin-bottom: 2px;
+  background: url(../image/content-icon.png) no-repeat;
+}
+
+.content-section .right .option .option-text {
+  width: 97px;
+}
+
+.content-section .right .option {
+  margin-bottom: 19px;
+}
+
+.content-section .right .content a img {
+  width: 295px;
+  height: 156px;
+}
+
+.content-section .right .content .new-hero-bottom {
+  padding: 10px 15px;
+  height: 47px;
+  border: 1px solid #e5e5e5;
+  border-top: none;
+  border-radius: 0 0 2px 2px;
+  margin-bottom: 10px;
+}
+
+.content-section .right .content h3 {
+  font-size: 18px;
+  color: #333333;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.content-section .right .content p {
+  color: #999999;
+  font-size: 12px;
+}
+
+/* hero_list */
+.content-section .right .hero-list ul {
+  display: flex;
+}
+.content-section .right .hero-list ul li {
+  margin: 0 8px 12px 0;
+}
+.content-section .right .hero-list ul li a {
+  display: block;
+  position: relative;
+}
+.content-section .right .hero-list ul li a img {
+  width: 68px;
+  height: 173px;
+}
+.content-section .right .hero-list ul li a p {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 26px;
+  text-align: center;
+  color: #f3c258;
+  font-size: 14px;
+  width: 34px;
+  height: 100%;
+  line-height: 16px;
+  padding-left: 2px;
+  writing-mode: vertical-lr;
+  letter-spacing: 0.3em;
+}
+
+.content-section .right .hero-list ul li a:hover p {
+  display: inline;
+}
+.content-section .right .hero-list ul li a:hover span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  background: #fff;
+  transition: background 300ms ease-out;
+  background: rgba(0, 0, 0, 0.88);
+}

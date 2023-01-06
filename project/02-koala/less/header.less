@@ -1,0 +1,97 @@
+@import url(common.less);
+
+.header {
+  border-radius: 3.2vw;
+  margin: 0 auto;
+  margin-bottom: 5.2vw;
+  width: 93.6vw;
+  background: #fff;
+  // border: 1px solid #000;
+
+  .header-top {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 93.6vw;
+    height: 10.6667vw;
+
+    .header-top-left {
+      display: flex;
+      align-items: center;
+      margin: 0 0 0 3.2vw;
+
+      img {
+        margin-right: 1.6vw;
+        width: 16.8vw;
+        height: 4.2667vw;
+      }
+
+      i {
+        color: @mainColor
+      }
+      span {
+        border-radius: 0.8vw;
+        padding: 0 0.73333vw;
+        line-height: 0.26667vw;
+        color: #fff;
+        background-color: @mainColor;
+      }
+    }
+
+    .header-top-right {
+      color: @mainColor;
+      line-height: 10.6667vw;
+      margin-right: 5.5333vw;
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 4.5333vw;
+        right: 3.6vw;
+        width: 1.4vw;
+        height: 1.4vw;
+        border: 0.2667vw solid;
+        border-color: @mainColor @mainColor transparent transparent;
+        transform: rotate(45deg);
+      }
+    }
+  }
+
+  .header-bottom {
+    display: flex;
+    justify-content: center;
+    width: 93.6vw;
+
+    .item {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      width: 23.93333vw;
+      height: 33.33333vw;
+
+      img {
+        width: 20.93333vw;
+        height: 20.93333vw;
+      }
+
+      .new-price{
+        span{
+          color: @mainColor;
+        }
+
+        .price{
+          font-size: 4.2667vw;
+          font-weight: 700;
+        }
+      }
+
+      .old-price{
+        color: #999;
+        text-decoration: line-through;
+      }
+
+
+    }
+  }
+}

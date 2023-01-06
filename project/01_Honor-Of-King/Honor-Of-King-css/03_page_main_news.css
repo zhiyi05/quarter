@@ -1,0 +1,214 @@
+.main .news-section {
+  display: flex;
+  /* margin-top: 540px; */
+  /* margin-top: 580px; */
+  height: 342px;
+  background: url(../image/main-back.png) no-repeat;
+  position: relative;
+  border: 1px solid #000;
+}
+
+.main .news-section .img-area {
+  width: 605px;
+  overflow: hidden;
+}
+
+.main .center-area {
+  width: 325px;
+  padding: 0 17px;
+}
+
+.main .news-section .download-area {
+  width: 236px;
+}
+
+/* img-area */
+.main .news-section .img-area .img-list {
+  display: flex;
+  width: 604px;
+  height: 298px;
+  /* overflow: hidden; */
+}
+
+/* left-bottom-area */
+.main .news-section .bottom-area .button-list {
+  display: flex;
+}
+.main .news-section .bottom-area .button-list .item a {
+  display: block;
+  width: 120.8px;
+  line-height: 44px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  color: #b1b2be;
+}
+.main .news-section .bottom-area .button-list .item :hover,
+.main .news-section .bottom-area .button-list .item .action {
+  background: rgba(255, 255, 255, 0.15);
+  color: #f3c258;
+}
+
+/* center-top-area */
+.main .news-section .center-area .top {
+  display: flex;
+  height: 48px;
+  border-bottom: 1px solid #000;
+}
+
+.main .news-section .center-area .top .item {
+  width: 52px;
+  text-align: center;
+}
+
+.main .news-section .center-area .top .item a {
+  display: block;
+  color: #b8b9c5;
+  line-height: 45px;
+  box-sizing: border-box;
+  height: 48px;
+  transition: all 100ms linear;
+}
+
+.main .news-section .center-area .top .item:not(.more):hover a,
+.main .news-section .center-area .top .action a {
+  border-bottom: 3px solid #f3c258;
+  color: #f3c258;
+}
+
+/* center-list-area */
+.main .news-section .center-area .bottom-list {
+  display: flex;
+  overflow: hidden;
+}
+
+.main .news-section .center-area .bottom {
+  margin-top: 18px;
+  width: 325px;
+  flex-shrink: 0;
+}
+.main .news-section .center-area .bottom .news {
+  margin-bottom: 11px;
+}
+
+.main .news-section .center-area .bottom a {
+  color: #b8b9c5;
+}
+
+.main .news-section .center-area .bottom .head-list {
+  background: #414046;
+}
+
+.main .news-section .center-area .bottom .head-list a {
+  display: block;
+  color: #f3c258;
+  font-size: 18px;
+  line-height: 36px;
+  margin-left: 15px;
+  width: 230px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.main .news-section .center-area .bottom .info {
+  display: inline-block;
+  color: #b8b9c5;
+  width: 230px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.main .news-section .center-area .bottom .news .notice {
+  color: #f4be19;
+  margin-right: 5px;
+  font-size: 12px;
+  display: inline-block;
+  border: 1px solid currentColor;
+  vertical-align: top;
+  margin-top: 2px;
+  width: 32px;
+  text-align: center;
+  border-radius: 2px;
+}
+.main .news-section .center-area .bottom .news .hot {
+  color: #ff3636;
+  margin-right: 5px;
+  font-size: 12px;
+  display: inline-block;
+  border: 1px solid currentColor;
+  vertical-align: top;
+  margin-top: 2px;
+  width: 32px;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.main .news-section .center-area .bottom .news .date {
+  color: #b8b9c5;
+  float: right;
+}
+
+/* right-download */
+.main .news-section .download-area {
+  display: flex;
+  flex-flow: column;
+}
+.main .news-section .download-area .download-game {
+  height: 128px;
+  background: url(../image/main-sprite.png) 0 -219px;
+  position: relative;
+}
+
+.main .news-section .download-area .download-game::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -62px;
+  width: 53px;
+  height: 68px;
+  background: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/shiling.png);
+  cursor: pointer;
+}
+
+.main .news-section .Anti-addiction {
+  position: absolute;
+  top: 78px;
+  right: -60px;
+  width: 50px;
+  height: 47px;
+  background: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/fanchenmi.png)
+    no-repeat center/100%;
+}
+
+.main .news-section .download-area .button {
+  background: url(../image/main-sprite.png);
+  height: 108px;
+}
+.main .news-section .download-area .btn1 {
+  background-position: 0 -350px;
+}
+.main .news-section .download-area .btn2 {
+  background-position: 0 -461px;
+}
+
+/* news-bottom-img  */
+.main .bottom-img {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 28px;
+  margin-bottom: 34px;
+}
+.main .bottom-img a {
+  overflow: hidden;
+}
+
+.main .bottom-img img:hover {
+  transition: all;
+  transition-duration: 300ms;
+  transform: scale(1.1);
+  transition-timing-function: ease-in-out;
+}
+

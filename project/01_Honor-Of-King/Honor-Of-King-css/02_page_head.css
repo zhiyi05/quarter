@@ -1,0 +1,158 @@
+.head {
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* nav-list */
+.nav-list {
+  float: left;
+  width: 100%;
+  height: 0px;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  transition: height 300ms ease;
+}
+
+
+.nav-list .inner{
+  width: 890px;
+  margin: 0 auto;
+  padding-left: 45px;
+}
+
+.nav-list .nav-content {
+  display: flex;
+}
+
+.nav-list .nav-content li {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 115px;
+
+}
+
+.nav-list .nav-content li a {
+  line-height: 30px;
+  color: #c9c9dd;
+}
+
+.nav-list .nav-content li a:hover {
+  color: #f3c258;
+  text-decoration: underline;
+}
+
+.nav-list .nav-content .icon {
+  display: flex;
+  align-items: center;
+}
+
+
+/* .head:hover */
+.head:hover .nav-list{
+  height: 300px;
+}
+
+
+/* hot */
+.nav-list .nav-content .icon-hot {
+  width: 24px;
+  height: 24px;
+  background-color: #f00;
+  background: url(../image/main-sprite.png) no-repeat -163px -68px;
+}
+
+/* new */
+.nav-list .nav-content .icon-new {
+  width: 24px;
+  height: 24px;
+  background-color: #f00;
+  background: url(../image/main-sprite.png) no-repeat -137px -68px;
+}
+
+/* guard */
+.nav-list .nav-content .icon-guard {
+  width: 24px;
+  height: 24px;
+  background-color: #f00;
+  background: url(../image/main-sprite.png) no-repeat -136px -5px;
+}
+
+
+
+
+.head .wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 84px;
+}
+.head .wrap .left {
+  display: flex;
+  align-items: center;
+}
+
+.head .wrap .logo {
+  display: block;
+  width: 200px;
+  height: 54px;
+  text-indent: -9999px;
+  background: url(../image/logo.png) no-repeat;
+  padding-right: 28px;
+}
+
+.head .wrap .list {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  height: 84px;
+}
+
+.head .wrap .list .item a {
+  display: block;
+  width: 115px;
+  height: 64px;
+  padding: 20px 0 0;
+  font-size: 18px;
+  color: #c9c9dd;
+}
+
+.head .wrap .list .item a:hover {
+  color: #e4b653;
+  background: url(../image/main-sprite.png);
+}
+
+.head .wrap .list .item a em {
+  display: block;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+/* right */
+.head .wrap .login {
+  display: flex;
+  text-align: start;
+  width: 182px;
+  height: 45px;
+}
+.head .wrap .login .icon {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  border: 1px solid #d9ad50;
+  border-radius: 42px;
+  background: url(../image/head-icon.png);
+  margin-right: 7px;
+}
+
+.head .wrap .login .welcome {
+  color: #ffffff;
+  font-size: 16px;
+}
+.head .wrap .login p {
+  color: #858792;
+  font-size: 14px;
+  margin-top: 3px;
+}

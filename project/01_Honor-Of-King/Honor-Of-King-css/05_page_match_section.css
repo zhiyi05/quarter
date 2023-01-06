@@ -1,0 +1,135 @@
+.match-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.match-section .left {
+  width: 872px;
+  height: 528px;
+}
+.match-section .right {
+  width: 295px;
+}
+.match-section .option {
+  display: flex;
+  justify-content: space-evenly;
+}
+.match-section .option li {
+  flex-grow: 1;
+}
+.match-section .option li .option-text {
+  display: inline-block;
+  width: 98%;
+}
+
+/* left */
+.match-section .left .content .content-top {
+  margin-bottom: 15px;
+}
+.match-section .left .content .content-top .match-info {
+  display: flex;
+}
+.match-section .left .content .content-top .match-info .img {
+  margin-right: 19px;
+}
+.match-section .left .content .content-top .match-info img {
+  width: 211px;
+  height: 260px;
+}
+
+.match-section
+  .left
+  .content
+  .content-top
+  .match-info
+  .match-info-text
+  .title {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* right */
+.match-section .right .larger-title .title {
+  background-position: -157px -106px;
+}
+
+.match-section .right .larger-title .ticket {
+  position: relative;
+  top: 3px;
+  width: 70px;
+  height: 22px;
+  line-height: 22px;
+  text-indent: 35px;
+  border-radius: 3px;
+  border: 1px solid #f3c258;
+  color: #323235;
+  background: url(//game.gtimg.cn/images/yxzj/web201706/images/comm/index.png)
+    no-repeat -243px -85px;
+}
+
+.match-section .right .subnav {
+  display: flex;
+  color: #999;
+  background-color: #e1e1e1;
+  line-height: 29px;
+  text-align: center;
+}
+
+.match-section .right .subnav .col1 {
+  width: 83px;
+  height: 29px;
+}
+
+.match-section .right .subnav .col2 {
+  width: 46px;
+}
+
+
+/* team-lis */
+.match-section .right {
+  width: 295px;
+}
+.match-section .right .schedule {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.match-section .right .schedule img {
+  width: 25px;
+  height: 25px;
+}
+
+.match-section .right .schedule th {
+  height: 29px;
+  font-size: 14px;
+  color:#999;
+  background-color: #f5f5f5;
+}
+
+.match-section .right .schedule td {
+  height: 68px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.match-section .right .schedule tr td:nth-child(1) {
+  width: 70px;
+}
+.match-section .right .schedule tr td:nth-child(3) {
+  width: 43px;
+  font-size: 14px;
+  color: #f3c258;
+}
+
+
+
+.match-section .right .right-bottom-img{
+  display: block;
+  width: 293px;
+  height: 159px;
+}
+
+.match-section .right .right-bottom-img img {
+  width: 100%;
+}

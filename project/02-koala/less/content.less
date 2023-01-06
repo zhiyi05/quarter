@@ -1,0 +1,52 @@
+@import url(common.less);
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+
+  .item {
+    display: flex;
+    flex-flow: column;
+    border-radius: 1.3333vw;
+    margin-bottom: 1.6vw;
+    width: 46.53333vw;
+    height: 76.12vw;
+    background: #fff;
+
+    .goods {
+      border-radius: 1.3333vw;
+      width: 46.53333vw;
+      height: 46.53333vw;
+    }
+
+    .info {
+      padding: 2.1333vw;
+
+      .brand {
+        text-indent: 4.8vw;
+        background: url(../image/美国.png) no-repeat left center/4vw 4vw;
+      }
+
+      .desc {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        font-size: 3.4667vw;
+        text-indent: 6.9333vw;
+        background: url(../image/自营.png) no-repeat left 0.5333vw / 6.928vw
+          3.4667vw;
+      }
+
+    }
+
+
+  }
+
+  span {
+    width: 46.53333vw;
+  }
+}

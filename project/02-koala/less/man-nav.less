@@ -1,0 +1,39 @@
+@import url(common.less);
+
+.man-nav {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 3.2vw;
+  width: 94.6667vw;
+  height: 12.2667vw;
+
+  .item {
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    text-align: center;
+
+    .title {
+      color: #666;
+      font-size: 4.2667vw;
+      // border: 1px solid #00f;
+    }
+    .title2 {
+      color: #999;
+      height: 4.2667vw;
+      // border: 1px solid #0f0;
+    }
+  }
+
+  .active {
+    .title {
+      color: @mainColor;
+    }
+
+    .title2 {
+      color: #fff;
+      border-radius: 2.4vw;
+      background-color: @mainColor;
+    }
+  }
+}
