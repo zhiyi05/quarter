@@ -1,3 +1,2 @@
-protocol
-assign
 params
+products

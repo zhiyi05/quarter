@@ -1,32 +1,45 @@
-.crumb {
+.wrapper .crumb {
   height: 63px;
   line-height: 63px;
 }
-.crumb .item {
+.wrapper .crumb .item {
   cursor: pointer;
 }
-.crumb .item:last-child {
+.wrapper .crumb .item:last-child {
   color: #000;
 }
-.section {
+.wrapper .section {
   background-color: #fff;
 }
-.section .row {
+.wrapper .section .row {
   display: flex;
   padding: 0 24px;
 }
-.section .row .item {
+.wrapper .section .row .item {
   width: 104px;
   line-height: 48px;
   height: 48px;
   color: #000;
   cursor: pointer;
 }
-.section .row .item:first-child {
+.wrapper .section .row .item:first-child {
   color: #666;
   cursor: auto;
 }
-.section .row .active {
+.wrapper .section .row .active {
   color: red;
+}
+.wrapper .products {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+.wrapper .products .item {
+  width: 291px;
+  height: 386px;
+  background-color: #fff;
+  margin-bottom: 12px;
+  border: 1px solid #000;
 }
 /*# sourceMappingURL=style.css.map */
