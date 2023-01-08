@@ -1,0 +1,45 @@
+.wrapper .crumb {
+  height: 63px;
+  line-height: 63px;
+}
+.wrapper .crumb .item {
+  cursor: pointer;
+}
+.wrapper .crumb .item:last-child {
+  color: #000;
+}
+.wrapper .section {
+  background-color: #fff;
+}
+.wrapper .section .row {
+  display: flex;
+  padding: 0 24px;
+}
+.wrapper .section .row .item {
+  width: 104px;
+  line-height: 48px;
+  height: 48px;
+  color: #000;
+  cursor: pointer;
+}
+.wrapper .section .row .item:first-child {
+  color: #666;
+  cursor: auto;
+}
+.wrapper .section .row .active {
+  color: red;
+}
+.wrapper .products {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+.wrapper .products .item {
+  width: 291px;
+  height: 386px;
+  background-color: #fff;
+  margin-bottom: 12px;
+  border: 1px solid #000;
+}
+/*# sourceMappingURL=style.css.map */
