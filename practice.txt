@@ -305,8 +305,9 @@ banner循环播放    随机                                                    
 474 477轮播图
 Array.from
 
-new URLSearchParams()  获取与添加
+URL的查询字符串  获取与添加                                                             new URLSearchParams(q=URLUtils.searchParams&topic=api)
 history 推送/替换状态   返回上一页，前进下一页                                go(-1)    pushState({name:"zy",age:17},"","/xiaoyi")
  储存对象                                                                    localStorage.setItem("info",obj)
 json序列化对象                                                                    JSON.stringify(obj)
 json反序列化                                                                        JSON.parse
+

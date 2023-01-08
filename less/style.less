@@ -26,6 +26,8 @@
         height: 48px;
         color: #000;
         cursor: pointer;
+
+
       }
 
       .item:first-child {
@@ -46,13 +48,73 @@
     display: flex;
     justify-content: space-between;
     flex-flow: wrap;
+
     .item {
       width: 291px;
       height: 386px;
       background-color: #fff;
       margin-bottom: 12px;
-      border: 1px solid #000;
-      //flex-shrink: 0;
+
+      &:hover{
+        border: 1px solid #000;
+      }
+
+      a {
+        height: 100%;
+        width: 100%;
+        display: block;
+
+        .top {
+          height: 236px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          img {
+            width: 180px;
+            height: 180px;
+          }
+        }
+
+        .bottom {
+          padding: 10px 24px 36px;
+          color: #808080;
+
+          .title {
+            font-size: 14px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: #000;
+            font-weight: 600;
+          }
+
+          .price {
+            margin-top: 12px;
+            color: rgb(207, 10, 44);
+            font-weight: 400;
+            font-size: 16px;
+            text-align: center;
+          }
+
+          .summary {
+            line-height: 18px;
+            font-size: 13px;
+            margin-top: 4px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+
+          .appraise {
+            text-align: center;
+
+            span{
+              margin: 0 2px;
+            }
+          }
+        }
+      }
     }
   }
 }
