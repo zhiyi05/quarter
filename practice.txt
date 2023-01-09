@@ -310,3 +310,26 @@ history 推送/替换状态   返回上一页，前进下一页                 
 json序列化对象                                                                    JSON.stringify(obj)
 json反序列化                                                                        JSON.parse
 
+sieve
+var info = [
+    {name: "why", friends: ["abc", "cba"]},
+    {name: "kobe", friends: ["nba", "cba"]},
+    {name: "yuki", friends: ["nba", "cba","zhi"]},
+    {name: "james", friends: ["nba", "cba", "abc"]}
+]
+
+
+var filters = ["abc","zhi"]
+console.log(
+    info.filter(function (item) {
+        for (var filter of filters) {
+            if (item.friends.includes(filter)) {
+                return true
+            }
+        }
+
+    })
+)
+
+
+筛选服务优惠

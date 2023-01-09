@@ -109,34 +109,29 @@ for (var i = 0; i < resultList.length; i++) {
 }
 
 
+var filter = "仅看有货"
+var has = resultList.filter(function (item) {
+    if (item.services.includes(filter)) {
+        return true
+    }
+})
+
+
 // 2.服务优惠sieve
 var discountEls = document.querySelector(".discount")
 var disItemEl = discountEls.querySelectorAll(".item")
+var filterEl = []
 for (var i = 1; i < disItemEl.length; i++) {
     disItemEl[i].onclick = function () {
-        console.log(this)
+        this.classList.toggle("active")
+        var thisName = this.textContent.trim()
+        if (this.classList.contains("active") && (!filterEl.includes(thisName))) {
+            filterEl.push(thisName)
+        } else {
+            var thisNameIndex = filterEl.findIndex(function (item){
+                return item === thisName
+            })
+            filterEl.splice(thisNameIndex,1)
+        }
     }
 }
-
-
-var info = [
-    {name: "why", friends: ["abc", "cba"]},
-    {name: "kobe", friends: ["nba", "cba"]},
-    {name: "james", friends: ["nba", "cba", "abc"]}
-]
-
-var filters = ["abc"]
-
-console.log(
-    info.filter(function (item) {
-        var flag = true
-        for (var filter of filters) {
-            if (!item.friends.includes(filter)) {
-                flag = false
-                break
-            }
-        }
-
-        return flag
-    })
-)
