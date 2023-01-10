@@ -1,4 +1,3 @@
-var btnEl = document.querySelector(".button-list");
 var imgEl = document.querySelector(".img-list")
 var imgArea = document.querySelector(".img-area")
 
