@@ -3,7 +3,6 @@ var serverURL = "https://res.vmallres.com/pimages"
 var ulEl = document.querySelector(".products")
 var sectionEl = document.querySelector(".section")
 
-
 var filterEls = []
 // button.listener
 var btnEls = sectionEl.querySelectorAll(".operation")
@@ -26,6 +25,7 @@ for (var i = 1; i < btnEls.length; i++) {
 }
 
 var filterList = resultList
+
 function fliterList() {
 // content of filter
     filterList = resultList.filter(function (item) {
@@ -43,6 +43,7 @@ function fliterList() {
 
 
 show()
+
 function show() {
     // show
     ulEl.innerHTML = ""
@@ -51,6 +52,7 @@ function show() {
         var itemEl = document.createElement("li")
         itemEl.className = "item"
         ulEl.append(itemEl)
+
 
         var serviceString = ""
         for (var label of resultEl.promoLabels) {
@@ -80,6 +82,17 @@ function show() {
     `
 
     }
+
+
+    for (var i = 0; i < 3; i++) {
+        var span = document.createElement("span")
+        span.className = "span"
+        ulEl.append(span)
+    }
 }
 
+
+
+
+// 轮播图
 
