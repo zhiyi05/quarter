@@ -1,22 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-	<title>index</title>
-	<link rel="stylesheet/less" href="../less/reset.less">
-	<link rel="stylesheet/less" href="../less/common.less">
-	<link rel="stylesheet/less" href="../less/style.less">
-	<script src="../js/lessc.js"></script>
-	<style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet/less" href="../less/reset.less">
+    <link rel="stylesheet/less" href="../less/common.less">
+    <link rel="stylesheet/less" href="../less/style.less">
+    <script src="../js/lessc.js"></script>
+    <style>
 
-	</style>
+    </style>
 </head>
 <body>
 
-    <script>
+<script>
 
-    </script>
+    var info = [
+        {name: "why", friends: ["abc", "cba"]},
+        {name: "kobe", friends: ["nba", "cba"]},
+        {name: "yuki", friends: ["nba", "cba", "zhi"]},
+        {name: "james", friends: ["nba", "cba", "abc"]}
+    ]
+
+    var filters = ["nba"]
+    console.log(
+        info.filter(function (item) {
+            var flag = true
+            for (var filter of filters) {
+                if(!item.friends.includes(filter)){
+                    flag = false
+                    break
+                }
+            }
+
+            return flag
+        })
+    )
+</script>
 </body>
 </html>
